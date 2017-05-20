@@ -1,0 +1,17 @@
+name: telegram-bot-aoe
+version: 0.1.0
+
+authors:
+  - Edoardo Tenani <edoardo.tenani@gmail.com>
+
+targets:
+  telegram-bot-aoe:
+    main: src/telegram-bot-aoe.cr
+
+dependencies:
+  telegram_bot:
+    github: hangyas/telegram_bot
+
+crystal: 0.22.0
+
+license: MIT
