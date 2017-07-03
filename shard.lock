@@ -1,5 +1,9 @@
 version: 1.0
 shards:
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    commit: 341678090110cdb5436f75cc796c785ed392c4be
+
   telegram_bot:
     github: hangyas/telegram_bot
     commit: 7e25546dd9a651ad2f36055a52399635a87661c1

@@ -11,6 +11,8 @@ targets:
 dependencies:
   telegram_bot:
     github: hangyas/telegram_bot
+  dotenv:
+    github: gdotdesign/cr-dotenv
 
 crystal: 0.22.0
 
