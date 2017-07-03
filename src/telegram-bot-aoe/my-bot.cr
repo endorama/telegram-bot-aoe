@@ -3,7 +3,6 @@ module Telegram::Bot::Aoe
     include TelegramBot::CmdHandler
 
     @taunts : TauntCollection
-    setter :taunts
 
     def initialize
       super(ENV["BOT_NAME"], ENV["BOT_TOKEN"])
